@@ -1,0 +1,202 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: auto;
+}
+.navbar{
+    width: 15%;
+    height: 100vh;
+    background: white;
+    position: fixed;
+    box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.02),
+    0px 2px 4px -2px rgba(0,0,0,0.08),
+    0px 4px 8px -4px rgba(0,0,0,0.10),
+    0px 8px 16px -8px rgba(0,0,0,0.12);
+}
+.logo{
+    width: 100%;
+    height: 5rem;
+    padding: 1rem;
+    text-align: center;
+}
+.logo img{
+    width: 60%;
+}
+.dp{
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+}
+.dp img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.dp p{
+   margin-bottom: 0;
+   font-size: 13px;
+}
+.dp small{
+    font-size: 11px;
+    color: gainsboro;
+ }
+ .links{
+    width: 100%;
+    height: 30rem;
+}
+.links ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.links ul a{
+   text-decoration: none;
+   color: gray;
+}
+.links ul li{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding-left: 1rem;
+    line-height: 3rem;
+    font-size: 12px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.links ul li span{
+   font-size: 15px;   
+   margin-right: 10px;
+}
+.links .material-icons{
+    line-height: 0;
+    display: block;
+    margin-top: 10px;
+
+}
+.active{
+    width: 5px;
+    height: 3rem;
+    background: #24A048;
+    float: left;
+    display: none;
+}
+.links ul a:hover  .active{
+   display: block;
+ }
+ .links ul a li:hover{
+    color: yellowgreen;
+  }
+
+.navigation{
+    width: 100%;
+    height: 3rem;
+    background: white;
+    box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.02),
+    0px 2px 4px -2px rgba(0,0,0,0.08),
+    0px 4px 8px -4px rgba(0,0,0,0.10),
+    0px 8px 16px -8px rgba(0,0,0,0.12);
+}
+
+
+
+.main{
+    width: 85%;
+    height: 100vh;
+    background: whitesmoke;
+    margin-left: 15%;
+}
+
+.cardContainer{
+    width: 100%;
+    height: 10rem;
+    padding: 2rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+    grid-gap:20px;
+  
+}
+.card{
+    width: 100%;
+    border: 0;
+    height: 7rem;
+    box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.02),
+    0px 2px 4px -2px rgba(0,0,0,0.08),
+    0px 4px 8px -4px rgba(0,0,0,0.10),
+    0px 8px 16px -8px rgba(0,0,0,0.12);
+    border-radius: 5px;
+    padding: 1rem;
+    padding-top: 0;
+
+}
+.grids{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+
+.cardText{
+    width: 100%;
+    height: 7rem;
+}
+.card h3{
+    color: white;
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+.card p{
+    color: gainsboro;
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.card span{
+    padding-top: 2rem;
+    font-size: 3rem;
+    color: white;
+}
+
+.blue{ 
+    background: linear-gradient(90deg, rgba(47,194,222,1), rgba(90,127,232,1));
+}
+.magenta{ 
+    background: linear-gradient(90deg, rgba(245,81,158,1), rgba(254,114,120,1));
+}
+.yellow{ 
+    background: linear-gradient(90deg, rgba(255,196,71,1), rgba(255,133,86,1));
+}
+.green{ 
+    background: linear-gradient(90deg, rgba(64,216,158,1), rgba(59,179,182,1));
+}
+
+.checkContainer{
+    width: 100%;
+    height: 30rem;
+    padding: 2rem;
+    padding-top: .5rem;
+}
+
+.gridx{
+    display: grid;
+    grid-template-columns: 48% 24% 24%;
+    grid-gap: 20px;
+}
+
+.myCard{
+    width: 100%;
+    border: 0;
+    height: 25rem;
+    box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.02),
+    0px 2px 4px -2px rgba(0,0,0,0.08),
+    0px 4px 8px -4px rgba(0,0,0,0.10),
+    0px 8px 16px -8px rgba(0,0,0,0.12);
+    border-radius: 5px;
+    padding: 1rem;
+    padding-top: 0;
+    background: white;
+
+}
